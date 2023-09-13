@@ -1,9 +1,9 @@
-# Project Title
+# Person resource Webservice API
 
 
 
 ## Table of Contents
-- [Project Title](#project-title)
+- [Person resource Webservice API](#person-resource-webservice-api)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
@@ -79,19 +79,19 @@ python manage.py runserver
    
 - To add a new person  : POST :<br>
 
-    http://localhost:8000/api/persons
+    http://localhost:8000/api
 - To get a person by id : GET:<br>
-  http://localhost:8000/api/persons/{id}
+  http://localhost:8000/api/{id}
 
 - To uodate a person's data by id :<br>
 PUT:<br>
-http://localhost:8000/api/persons/{id}<br>
+http://localhost:8000/api/{id}<br>
 
 - To delete a person by id:<br> 
-  http://localhost:8000/api/persons/{id}
+  http://localhost:8000/api/{id}
 
 # Example 1<br>
-POST : http: // localhost: 800 /api/persons<br>
+POST : http: // localhost: 800 /api<br>
 JSON : {
     <br>
     "name" : "Chisom"<br>
@@ -106,7 +106,7 @@ JSON : {
 
 ## Example 2 <br>
 
-GET: http : // localhost : 8000 /api /persons / {id}<br>
+GET: http : // localhost : 8000 /api/ {id}<br>
 
 ## Response <br>
 { <br><br>
