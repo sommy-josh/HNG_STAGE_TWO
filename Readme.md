@@ -63,10 +63,10 @@ python manage.py runserver
 ```
 ## API Endpoints
 
-- POST /api/persons/: Create a new person record.
-- GET /api/persons/?name={name}: Retrieve person(s) by name.
-- PUT /api/persons/{name}/: Update a person by name.
-- DELETE /api/persons/{name}/: Delete a person by name.
+- POST /api/: Create a new person record.
+- GET /api/?name={name}: Retrieve person(s) by name.
+- PUT /api/{name}/: Update a person by name.
+- DELETE /api/{name}/: Delete a person by name.
 
 
 ## Usage
